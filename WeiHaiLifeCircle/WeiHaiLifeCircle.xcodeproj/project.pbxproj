@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		515B1D161DE53EC200C48DB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B1D151DE53EC200C48DB9 /* AppDelegate.swift */; };
+		515B1D181DE53EC200C48DB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B1D171DE53EC200C48DB9 /* ViewController.swift */; };
+		515B1D1B1DE53EC200C48DB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515B1D191DE53EC200C48DB9 /* Main.storyboard */; };
+		515B1D1D1DE53EC200C48DB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515B1D1C1DE53EC200C48DB9 /* Assets.xcassets */; };
+		515B1D201DE53EC200C48DB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 515B1D1E1DE53EC200C48DB9 /* LaunchScreen.storyboard */; };
+		515B1D2B1DE53EC200C48DB9 /* WeiHaiLifeCircleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B1D2A1DE53EC200C48DB9 /* WeiHaiLifeCircleTests.swift */; };
+		515B1D361DE53EC200C48DB9 /* WeiHaiLifeCircleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515B1D351DE53EC200C48DB9 /* WeiHaiLifeCircleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		515B1D271DE53EC200C48DB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 515B1D0A1DE53EC200C48DB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 515B1D111DE53EC200C48DB9;
+			remoteInfo = WeiHaiLifeCircle;
+		};
+		515B1D321DE53EC200C48DB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 515B1D0A1DE53EC200C48DB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 515B1D111DE53EC200C48DB9;
+			remoteInfo = WeiHaiLifeCircle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		515B1D121DE53EC200C48DB9 /* WeiHaiLifeCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeiHaiLifeCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		515B1D151DE53EC200C48DB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		515B1D171DE53EC200C48DB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		515B1D1A1DE53EC200C48DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		515B1D1C1DE53EC200C48DB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		515B1D1F1DE53EC200C48DB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		515B1D211DE53EC200C48DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		515B1D261DE53EC200C48DB9 /* WeiHaiLifeCircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiHaiLifeCircleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		515B1D2A1DE53EC200C48DB9 /* WeiHaiLifeCircleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeiHaiLifeCircleTests.swift; sourceTree = "<group>"; };
+		515B1D2C1DE53EC200C48DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		515B1D311DE53EC200C48DB9 /* WeiHaiLifeCircleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiHaiLifeCircleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		515B1D351DE53EC200C48DB9 /* WeiHaiLifeCircleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeiHaiLifeCircleUITests.swift; sourceTree = "<group>"; };
+		515B1D371DE53EC200C48DB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		515B1D0F1DE53EC200C48DB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515B1D231DE53EC200C48DB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515B1D2E1DE53EC200C48DB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		515B1D091DE53EC200C48DB9 = {
+			isa = PBXGroup;
+			children = (
+				515B1D141DE53EC200C48DB9 /* WeiHaiLifeCircle */,
+				515B1D291DE53EC200C48DB9 /* WeiHaiLifeCircleTests */,
+				515B1D341DE53EC200C48DB9 /* WeiHaiLifeCircleUITests */,
+				515B1D131DE53EC200C48DB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		515B1D131DE53EC200C48DB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				515B1D121DE53EC200C48DB9 /* WeiHaiLifeCircle.app */,
+				515B1D261DE53EC200C48DB9 /* WeiHaiLifeCircleTests.xctest */,
+				515B1D311DE53EC200C48DB9 /* WeiHaiLifeCircleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		515B1D141DE53EC200C48DB9 /* WeiHaiLifeCircle */ = {
+			isa = PBXGroup;
+			children = (
+				515B1D151DE53EC200C48DB9 /* AppDelegate.swift */,
+				515B1D171DE53EC200C48DB9 /* ViewController.swift */,
+				515B1D191DE53EC200C48DB9 /* Main.storyboard */,
+				515B1D1C1DE53EC200C48DB9 /* Assets.xcassets */,
+				515B1D1E1DE53EC200C48DB9 /* LaunchScreen.storyboard */,
+				515B1D211DE53EC200C48DB9 /* Info.plist */,
+			);
+			path = WeiHaiLifeCircle;
+			sourceTree = "<group>";
+		};
+		515B1D291DE53EC200C48DB9 /* WeiHaiLifeCircleTests */ = {
+			isa = PBXGroup;
+			children = (
+				515B1D2A1DE53EC200C48DB9 /* WeiHaiLifeCircleTests.swift */,
+				515B1D2C1DE53EC200C48DB9 /* Info.plist */,
+			);
+			path = WeiHaiLifeCircleTests;
+			sourceTree = "<group>";
+		};
+		515B1D341DE53EC200C48DB9 /* WeiHaiLifeCircleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				515B1D351DE53EC200C48DB9 /* WeiHaiLifeCircleUITests.swift */,
+				515B1D371DE53EC200C48DB9 /* Info.plist */,
+			);
+			path = WeiHaiLifeCircleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		515B1D111DE53EC200C48DB9 /* WeiHaiLifeCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515B1D3A1DE53EC200C48DB9 /* Build configuration list for PBXNativeTarget "WeiHaiLifeCircle" */;
+			buildPhases = (
+				515B1D0E1DE53EC200C48DB9 /* Sources */,
+				515B1D0F1DE53EC200C48DB9 /* Frameworks */,
+				515B1D101DE53EC200C48DB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeiHaiLifeCircle;
+			productName = WeiHaiLifeCircle;
+			productReference = 515B1D121DE53EC200C48DB9 /* WeiHaiLifeCircle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		515B1D251DE53EC200C48DB9 /* WeiHaiLifeCircleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515B1D3D1DE53EC200C48DB9 /* Build configuration list for PBXNativeTarget "WeiHaiLifeCircleTests" */;
+			buildPhases = (
+				515B1D221DE53EC200C48DB9 /* Sources */,
+				515B1D231DE53EC200C48DB9 /* Frameworks */,
+				515B1D241DE53EC200C48DB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				515B1D281DE53EC200C48DB9 /* PBXTargetDependency */,
+			);
+			name = WeiHaiLifeCircleTests;
+			productName = WeiHaiLifeCircleTests;
+			productReference = 515B1D261DE53EC200C48DB9 /* WeiHaiLifeCircleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		515B1D301DE53EC200C48DB9 /* WeiHaiLifeCircleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515B1D401DE53EC200C48DB9 /* Build configuration list for PBXNativeTarget "WeiHaiLifeCircleUITests" */;
+			buildPhases = (
+				515B1D2D1DE53EC200C48DB9 /* Sources */,
+				515B1D2E1DE53EC200C48DB9 /* Frameworks */,
+				515B1D2F1DE53EC200C48DB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				515B1D331DE53EC200C48DB9 /* PBXTargetDependency */,
+			);
+			name = WeiHaiLifeCircleUITests;
+			productName = WeiHaiLifeCircleUITests;
+			productReference = 515B1D311DE53EC200C48DB9 /* WeiHaiLifeCircleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		515B1D0A1DE53EC200C48DB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = wjn;
+				TargetAttributes = {
+					515B1D111DE53EC200C48DB9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					515B1D251DE53EC200C48DB9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 515B1D111DE53EC200C48DB9;
+					};
+					515B1D301DE53EC200C48DB9 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 515B1D111DE53EC200C48DB9;
+					};
+				};
+			};
+			buildConfigurationList = 515B1D0D1DE53EC200C48DB9 /* Build configuration list for PBXProject "WeiHaiLifeCircle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 515B1D091DE53EC200C48DB9;
+			productRefGroup = 515B1D131DE53EC200C48DB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				515B1D111DE53EC200C48DB9 /* WeiHaiLifeCircle */,
+				515B1D251DE53EC200C48DB9 /* WeiHaiLifeCircleTests */,
+				515B1D301DE53EC200C48DB9 /* WeiHaiLifeCircleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		515B1D101DE53EC200C48DB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515B1D201DE53EC200C48DB9 /* LaunchScreen.storyboard in Resources */,
+				515B1D1D1DE53EC200C48DB9 /* Assets.xcassets in Resources */,
+				515B1D1B1DE53EC200C48DB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515B1D241DE53EC200C48DB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515B1D2F1DE53EC200C48DB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		515B1D0E1DE53EC200C48DB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515B1D181DE53EC200C48DB9 /* ViewController.swift in Sources */,
+				515B1D161DE53EC200C48DB9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515B1D221DE53EC200C48DB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515B1D2B1DE53EC200C48DB9 /* WeiHaiLifeCircleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515B1D2D1DE53EC200C48DB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515B1D361DE53EC200C48DB9 /* WeiHaiLifeCircleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		515B1D281DE53EC200C48DB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 515B1D111DE53EC200C48DB9 /* WeiHaiLifeCircle */;
+			targetProxy = 515B1D271DE53EC200C48DB9 /* PBXContainerItemProxy */;
+		};
+		515B1D331DE53EC200C48DB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 515B1D111DE53EC200C48DB9 /* WeiHaiLifeCircle */;
+			targetProxy = 515B1D321DE53EC200C48DB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		515B1D191DE53EC200C48DB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515B1D1A1DE53EC200C48DB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		515B1D1E1DE53EC200C48DB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				515B1D1F1DE53EC200C48DB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		515B1D381DE53EC200C48DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		515B1D391DE53EC200C48DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		515B1D3B1DE53EC200C48DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeiHaiLifeCircle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.WeiHaiLifeCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		515B1D3C1DE53EC200C48DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WeiHaiLifeCircle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.WeiHaiLifeCircle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		515B1D3E1DE53EC200C48DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeiHaiLifeCircleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.WeiHaiLifeCircleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeiHaiLifeCircle.app/WeiHaiLifeCircle";
+			};
+			name = Debug;
+		};
+		515B1D3F1DE53EC200C48DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WeiHaiLifeCircleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.WeiHaiLifeCircleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeiHaiLifeCircle.app/WeiHaiLifeCircle";
+			};
+			name = Release;
+		};
+		515B1D411DE53EC200C48DB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WeiHaiLifeCircleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.WeiHaiLifeCircleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WeiHaiLifeCircle;
+			};
+			name = Debug;
+		};
+		515B1D421DE53EC200C48DB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WeiHaiLifeCircleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wjn.WeiHaiLifeCircleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WeiHaiLifeCircle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		515B1D0D1DE53EC200C48DB9 /* Build configuration list for PBXProject "WeiHaiLifeCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515B1D381DE53EC200C48DB9 /* Debug */,
+				515B1D391DE53EC200C48DB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		515B1D3A1DE53EC200C48DB9 /* Build configuration list for PBXNativeTarget "WeiHaiLifeCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515B1D3B1DE53EC200C48DB9 /* Debug */,
+				515B1D3C1DE53EC200C48DB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		515B1D3D1DE53EC200C48DB9 /* Build configuration list for PBXNativeTarget "WeiHaiLifeCircleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515B1D3E1DE53EC200C48DB9 /* Debug */,
+				515B1D3F1DE53EC200C48DB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		515B1D401DE53EC200C48DB9 /* Build configuration list for PBXNativeTarget "WeiHaiLifeCircleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515B1D411DE53EC200C48DB9 /* Debug */,
+				515B1D421DE53EC200C48DB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 515B1D0A1DE53EC200C48DB9 /* Project object */;
+}
